@@ -1,0 +1,45 @@
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;
+}
+
+h1{
+    color:grey;
+    font-family:verdana
+}
+
+.maindiv{
+    background-color:white;
+    color:black;
+    width:500px;
+    padding:20px;
+    border-radius:25px;
+}
+
+.center{
+    width:400px;
+    padding:20px;
+    margin-left:25px;  
+
+}
+
+/*Aligning labels, input and select*/
+div p {
+    display: table-row;
+    
+}
+div.center input, 
+div.center select, 
+div.center label {
+    display: table-cell;
+    margin: 10px;
+}
+div.center label {
+    text-align: left;
+
+}
+div.center input,
+div.center select{
+  margin-left:25px;
+}
